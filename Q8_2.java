@@ -30,5 +30,7 @@ public class Q8_2 {
                 m[i][j] = input.nextDouble();
         // 打印矩阵主对角线求和的结果
         System.out.println("该矩阵的主对角线上所有元素之和是" + sumMajorDiagonal(m));
+        // 关闭输入流
+        input.close();
     }
 }
