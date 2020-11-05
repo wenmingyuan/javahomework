@@ -38,5 +38,7 @@ public class Q6_17 {
                 System.out.print("只能输入正整数，请重新输入");
             }
         }
+        // 关闭输入流
+        input.close();
     }
 }
