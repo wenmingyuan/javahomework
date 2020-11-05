@@ -37,5 +37,7 @@ public class Q7_10 {
         }
         // 打印结果
         System.out.println("最小元素的下标值是" + indexOfSmallestElement(array));
+        // 关闭输入流
+        input.close();
     }
 }
